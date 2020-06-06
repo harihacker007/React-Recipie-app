@@ -1,3 +1,6 @@
+[![Run on Repl.it](https://repl.it/badge/github/harihacker007/React-Recipie-app)](https://repl.it/github/harihacker007/React-Recipie-app)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
