@@ -1,10 +1,11 @@
 import React,{useEffect, useState} from 'react';
 import './App.css';
 import Recipe from './Recipe';
+
 const App= () => {
 
   const APP_ID= "e32a6226";
-  const APP_KEY= "1e8f85eb46549af7c868f1882329bcac";
+  const APP_KEY= "ed62830c07824493cb342b48b43f9c54";
   const [recipes,setRecipes] = useState([]);
   const [search,setSearch] = useState('');
   const [query,setQuery] = useState('Sample');
@@ -47,7 +48,7 @@ const getSearch = e => {
               <Recipe 
               key={recipe.recipe.label}
               Name={recipe.recipe.label} 
-              Calories={recipe.recipe.calories} 
+              Calories={recipe.recipe.calories.toFixed(0)} 
               image={recipe.recipe.image}
               ingredients = {recipe.recipe.ingredients}     
               />
